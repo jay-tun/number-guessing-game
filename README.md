@@ -8,24 +8,24 @@ This is a **Bash-based** number guessing game that tracks user statistics, inclu
 
 ## Setup Instructions
 1. Clone this repository:
-```
+   ```
    git clone git@github.com:jay-tun/number-guessing-game.git
    cd number-guessing-game
-```
+  ```
 2. 2. Import the database schema:
    ```
    psql -U freecodecamp -d number_guess -f number_guess.sql
    ```
 
 2. Make the script executable:
-```
-	chmod +x number_guess.sh
-```
+   ```
+   chmod +x number_guess.sh
+   ```
 
 3. Run the script:
-```
-./number_guess.sh
-```
+   ```
+   ./number_guess.sh
+   ```
 
 ## Result
 
