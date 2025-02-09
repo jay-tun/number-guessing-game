@@ -7,25 +7,25 @@ This is a **Bash-based** number guessing game that tracks user statistics, inclu
 - **number_guess.sql** - Contains the PostgreSQL database schema and initial data setup.
 
 ## Setup Instructions
+
 1. Clone this repository:
    ```
    git clone git@github.com:jay-tun/number-guessing-game.git
    cd number-guessing-game
-  ```
-2. 2. Import the database schema:
+   ```
+2. Import the database schema:
    ```
    psql -U freecodecamp -d number_guess -f number_guess.sql
    ```
-
-2. Make the script executable:
+3. Make the script executable:
    ```
    chmod +x number_guess.sh
    ```
-
-3. Run the script:
+4. Run the script:
    ```
    ./number_guess.sh
    ```
+
 
 ## Result
 
