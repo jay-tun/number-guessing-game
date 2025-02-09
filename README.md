@@ -1,6 +1,6 @@
 # Number Guessing Game
 
-This is a **Bash-based** number guessing game that tracks user statistics, including the number of games played and the best performance. The project was created to practice Bash scripting and file handling with Git.
+This is a **Bash-based** number guessing game that tracks user statistics, including the number of games played and the best performance. The project was created to practice Bash scripting and file handling with Git. It is also a part of the FreeCodeCamp Relational Database Certification.
 
 ## Project Files
 - **number_guess.sh** – A Bash script that generates a secret number for the user to guess, tracks the number of guesses, and stores user statistics in a database.
